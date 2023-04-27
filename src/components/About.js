@@ -1,0 +1,26 @@
+import React, { Component } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import aboutImg from "../images/extra.png";
+import AboutText from "./AboutText";
+
+export default function About() {
+  return (
+    <section id="about">
+      <Container className="about-section">
+        <h1 style={{ fontSize: "2.2em", paddingBottom: "20px" }}>
+          About <strong className="limegreen">Luis</strong>
+        </h1>
+        <Row style={{ display:"center"}}>
+          <Col>
+            <div style={{ maxWidth: "650px", paddingLeft:"20px "}}>
+              <AboutText />
+            </div>
+          </Col>
+          <Col>
+            <img src={aboutImg} style={{ paddingTop:"50px", paddingLeft:"150px" }}></img>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+}
