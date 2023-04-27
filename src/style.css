@@ -476,14 +476,42 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
   color: white !important;
+}
+
+
+.resume-button{
+  -webkit-appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+
+  text-rendering: auto;
+  color:#222222;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  background-color:limegreen;
+  box-sizing: border-box;
+  font: 400 20px system-ui;
+  padding: 1px 7px 2px;
+  border-width: 15px;
+  border-style: solid;
+  border-color:limegreen;
+  border-image: initial;
+  border-radius: 4px;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+  width: 80% !important;
+  height: 100% !important;
 }
 
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+  align-items: center;
 }
 
 .resume-left {
