@@ -11,15 +11,13 @@ export default function About() {
           About <strong className="limegreen">Luis</strong>
         </h1>
         <Row style={{ display:"center"}}>
-          <Col>
-            <div style={{ maxWidth: "650px", paddingLeft:"200px "}}>
+          <Col style={{textAlign:"justfiy"}}>
+            {/* <div style={{ maxWidth: "650px", paddingLeft:"200px "}}> */}
               <AboutText />
-            </div>
+            {/* </div> */}
           </Col>
           <Col style={{ textAlign:"right", paddingRight:"300px"}}>
-            <div style={{ marginTop:"-650px"}}>
             <img src={aboutImg} style={{ paddingTop:"50px", paddingLeft:"200px" }}></img>
-            </div>
           </Col>
         </Row>
       </Container>

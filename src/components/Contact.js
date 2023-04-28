@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import GoogleMapReact from "google-map-react";
+import { AiFillMail, AiFillPhone } from "react-icons/ai";
 
 const location = {
   address: "700 Atlantic Ave, Boston, MA 02110",
@@ -22,7 +22,7 @@ export default function Contact() {
             paddingTop: "15px",
           }}
         >
-          <h2>Here is how to reach me!</h2>
+          <h2>Here is how to reach <strong className="limegreen">me</strong>!</h2>
           <div style={{maxWidth:"600px" }}>
           <p
             style={{
