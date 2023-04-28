@@ -12,12 +12,14 @@ export default function About() {
         </h1>
         <Row style={{ display:"center"}}>
           <Col>
-            <div style={{ maxWidth: "650px", paddingLeft:"20px "}}>
+            <div style={{ maxWidth: "650px", paddingLeft:"200px "}}>
               <AboutText />
             </div>
           </Col>
-          <Col>
-            <img src={aboutImg} style={{ paddingTop:"50px", paddingLeft:"150px" }}></img>
+          <Col style={{ textAlign:"right", paddingRight:"300px"}}>
+            <div style={{ marginTop:"-650px"}}>
+            <img src={aboutImg} style={{ paddingTop:"50px", paddingLeft:"200px" }}></img>
+            </div>
           </Col>
         </Row>
       </Container>

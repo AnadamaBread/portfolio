@@ -413,7 +413,6 @@ button:focus {
   position: relative !important;
   padding-top: 30px !important;
 
-
 }
 
 .tech-icons {
@@ -421,14 +420,14 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid limegreen !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(132, 0, 255, 0.137) !important;
   overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
+  /* transition: all 0.4s ease 0s !important; */
 }
 
 @media (max-width: 767px) {
@@ -437,11 +436,6 @@ button:focus {
   }
 }
 
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
 
 .tech-icon-images {
   padding: 20px !important;
@@ -642,4 +636,45 @@ button:focus {
 
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* --------- */
+/* Skills */
+/* --------- */
+
+
+.skills-section {
+  flex: 1;
+  color:white;
+  justify-content: space-between;
+  padding: 8;
+  flex-direction: row;
+  align-items: center;
+  position: relative !important;
+  padding-top: 30px !important;
+}
+
+/* --------- */
+/* Contact */
+/* --------- */
+
+
+.contact-section {
+  flex: 1;
+  color:white;
+  justify-content: space-between;
+  padding: 8;
+  flex-direction: row;
+  align-items: center;
+  position: relative !important;
+  padding-top: 30px !important;
+}
+
+.google-map {
+  padding-right: 15px;
+  flex-direction: row;
+  position: relative;
+  text-align: right;
+  margin-top: -75px;
+
 }

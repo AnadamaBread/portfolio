@@ -50,7 +50,7 @@ export default function Resume() {
             options={{ workerSrc: "pdf.worker.js" }}
             onLoadSuccess={onDocumentLoadSuccess}
           >
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6 } renderTextLayer={false} renderAnnotationLayer={false} />
+            <Page pageNumber={1} scale={width > 700 ? 3.0 : 0.5 } renderTextLayer={false} renderAnnotationLayer={false} />
           </Document>
           </div>
           <Row>
